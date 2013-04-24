@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  background-color: #efefef;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.header {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #373737;
+  color: #eee;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.header a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.header ul {
+  display: inline;
+  list-style: none;
+}
+
+.header li {
+  display: inline;
+  padding-right: 1em;
+}
+
+.header .name {
+  float: left;
+  width: 300px;
+
+  font-size: 26px;
+}
+
+.header .menu {
+  float: right;
+  margin: 0;
+
+  text-align: right;
+  text-transform: lowercase;
+  line-height: 40px;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  border-left: 8px solid #373737;
+  text-transform: lowercase;
+
+  margin: 60px -30px 30px -23px;
+  padding: 10px 30px 10px 15px;
+}
+
+a {
+  color: #0092b7;
+  text-decoration: none;
+}
+
+pre {
+  overflow: scroll;
+}
+
+ul.post-listing {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-listing .date {
+  float: right;
+  text-align: right;
+  font-size: 14px;
+}
+
+i.icon-twitter {
+  font-size: 12px;
+}
+
+i.icon-github {
+  padding-left: 0.5em;
+  height: 13px;
+}
+
+.hidden {
+  display: none;
+}
+
+.default-margin-bottom {
+  margin-bottom: 20px;
+}
+
+div.card {
+  background: #fff;
+  box-shadow: 0 2px #ccc;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+
+.card .card-header {
+  padding: 20px 20px 0 20px;
+  //border-bottom: 1px dotted #ddd;
+}
+
+.card .card-header .company {
+  font-size: 20px;
+}
+
+.card .card-body {
+  padding: 20px;
+}
+
+.card p {
+  margin-top: 0;
+}
+
+.card .timeline {
+  font-size: 14px;
+}

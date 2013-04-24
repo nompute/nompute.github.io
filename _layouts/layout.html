@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <title>
+      {% if page.title %}
+      {{ page.title }} &ndash;
+      {% endif %}
+      {{ site.name }}
+    </title>
+
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="stylesheet" href="/css/base.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="/css/pygments.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/fontawesome.css" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand|Open+Sans:300italic,400italic,400,300' rel='stylesheet' type='text/css'/>
+
+    {% if page.include_jquery %}
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    {% endif %}
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <section class="name">
+          <a href="/">nompute</a>
+        </section>
+
+        <ul class="menu icons">
+          <li><a href="/cv">cv</a></li>
+          <li><a href="http://github.com/nompute"><i class="icon-github"></i></a></li>
+          <li><a href="http://twitter.com/nompute"><i class="icon-twitter"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="container content">
+      {{ content }}
+    </section>
+  </body>
+</html>
