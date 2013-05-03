@@ -78,8 +78,16 @@ a {
   text-decoration: none;
 }
 
-pre {
-  overflow: scroll;
+.highlight {
+  background-color: #1c1c1c;
+  color: #93A1A1;
+}
+
+.highlight pre {
+  padding: 10px;
+  overflow: auto;
+  line-height: 100%;
+  font-size: 16px;
 }
 
 ul.post-listing {
