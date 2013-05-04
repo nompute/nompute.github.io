@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: post
 title: Tiling windows in Mac OS X with Slate
 ---
 
@@ -18,12 +18,12 @@ while, and over time most of the engineers in the office also adopted it.  It's
 still not ideal, however, because windows need to be manually positioned, and
 the presets are quite limited.
 
-I should note that [xnomad](http://github.com/fjolnir/xnomad) was a notable
-development, because it did succeed in replicating much of the behavior of Linux
-tiling window managers.  However, it relied on a homegrown bastard child of
-Objective-C and Ruby, and you need to have that installed before the application
-works. I've a strong aversion to one-man language interfaces and additional
-dependencies, so this was a no-go for me.
+[Xnomad](http://github.com/fjolnir/xnomad) was a notable development, because
+it did succeed in replicating much of the behavior of Linux tiling window
+managers.  However, it relied on a homegrown bastard child of Objective-C and
+Ruby, and you need to have that installed before the application works. I've a
+strong aversion to one-man language interfaces and additional dependencies, so
+this was a no-go for me.
 
 Around this time a coworker introduced me to
 [Slate](http://github.com/jigish/slate).  I was originally turned off by the
@@ -122,6 +122,3 @@ problem for a virtual desktop junkie like me.
 
 It's a great start, however, and if I get the chance I'll see about adding in
 the hooks needed for even better tiling support.  Or, you could beat me to it.
-
-Got any other suggestions for configuring Slate?  Hit me up on
-[Twitter](http://twitter.com/nompute).

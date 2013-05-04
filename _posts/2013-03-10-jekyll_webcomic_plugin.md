@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: post
 title: A webcomic plugin for Jekyll
 ---
 

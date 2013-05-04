@@ -93,6 +93,7 @@ a {
 ul.post-listing {
   list-style: none;
   padding-left: 0;
+  line-height: 200%;
 }
 
 .post-listing .date {
@@ -143,5 +144,14 @@ div.card {
 }
 
 .card .timeline {
+  font-size: 14px;
+}
+
+.footer {
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-top: 1px solid #dfdfdf;
+  text-align: center;
   font-size: 14px;
 }
