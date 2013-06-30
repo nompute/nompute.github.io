@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 720px;
   margin: 0 auto;
 }
 
@@ -70,6 +70,16 @@ h1 {
   text-transform: lowercase;
 
   margin: 60px -30px 30px -23px;
+  padding: 10px 30px 10px 15px;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  border-left: 6px solid #373737;
+  text-transform: lowercase;
+
+  margin: 10px -30px 30px -23px;
   padding: 10px 30px 10px 15px;
 }
 
