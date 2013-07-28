@@ -7,7 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: #efefef;
   font-weight: 300;
-  line-height: 150%;
+  line-height: 170%;
 }
 
 .container {
@@ -89,15 +89,20 @@ a {
 }
 
 .highlight {
-  background-color: #1c1c1c;
-  color: #93A1A1;
+  //color: #93A1A1;
+  border-radius: 9px;
+  moz-border-radius: 9px;
 }
 
 .highlight pre {
   padding: 10px;
   overflow: auto;
-  line-height: 100%;
-  font-size: 16px;
+  line-height: 135%;
+  font-size: 14px;
+}
+
+pre, code {
+  font-family: Menlo, Monaco, monospace;
 }
 
 ul.post-listing {
