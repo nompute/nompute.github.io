@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Tiling windows in Mac OS X with Slate
+description: |
+  I hate moving windows around.  I'm comfortable with a mouse and a keyboard,
+  often at the same time.  But I still hate having to move windows around.
+  I've been looking for a way to replicate the functionality of tiling window
+  managers like Awesome, dwm and xmonad on the Mac for quite some time.
 ---
 
 #Tiling windows in Mac OS X with Slate

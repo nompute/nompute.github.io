@@ -1,6 +1,12 @@
 ---
 layout: post
 title: A webcomic plugin for Jekyll
+description: |
+  This was a short diversion to see if I could help get a simple webcomic up
+  and running online.  It needed to be simple to update and lightweight.
+  Unfortunately, all the webcomic frameworks I could find were based off
+  Wordpress and were a bother to configure.  Jekyll sounded like a fun way to
+  get the project started.
 ---
 
 # A webcomic plugin for Jekyll

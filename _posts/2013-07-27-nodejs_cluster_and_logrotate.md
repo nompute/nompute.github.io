@@ -1,6 +1,11 @@
 ---
 layout: post
 title: Using Node.js cluster with logrotate
+description: |
+  I recently had occasion to convert an existing Node.js service for
+  multiprocess use.  I opted to use Node's built-in "cluster" module, and
+  realized that managing log files with log4js-node wasn't completely
+  transparent.
 ---
 
 # Using Node.js cluster with logrotate

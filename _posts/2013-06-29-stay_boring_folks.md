@@ -1,6 +1,13 @@
 ---
 layout: post
 title: Stay Boring, Folks
+description: |
+  Startups are great - people who pick startups, I think, self-select for
+  environments that encourage use of bleeding-edge technology. Sometimes, I
+  think the thrill-seekers in us tend to forget that the tried-and-true have
+  their merits, and ultimately, you're trying to build a successful business.
+  Integrating buzzword tech for the sake of it just burdens you with technical
+  debt in the form of supporting nascent technology.
 ---
 
 # Stay Boring, Folks

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  {% include _head_tag.html %}
+  <body>
+    {% include _header.html %}
+
+    <section class="container content">
+
+      {% for post in site.posts %}
+      <article class="post">
+      <h1>{{ post.title }}</h1>
+      <span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+      <p>
+        {{ post.description }}
+      </p>
+      <div class="post-footer">
+        <a href="{{ post.url }}">Read More</a>
+      </div>
+      </article>
+      {% endfor %}
+      {% include _footer.html %}
+    </section>
+  </body>
+</html>
