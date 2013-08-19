@@ -2,7 +2,7 @@
 layout: layout
 ---
 
-# Michael Lai
+# About Me
 
   I craft software for a living in sunny California.  I came here from
 Singapore, by way of [Chicago](http://uchicago.edu).  When I'm not writing code,
