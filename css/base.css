@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
 body {
-  font-family: 'Merriweather', 'Georgia', 'Cambria', serif;
+  font-family: 'Droid Serif', 'Georgia', serif;
   font-size: 18px;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   background-color: #efefef;
   font-weight: normal;
-  line-height: 170%;
+  line-height: 160%;
 }
 
 .container {
@@ -63,18 +63,18 @@ body {
 }
 
 h1 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
   font-size: 24px;
   border-left: 8px solid #373737;
-  text-transform: uppercase;
+  text-transform: lowercase;
 
   margin: 60px -30px 30px -23px;
   padding: 10px 30px 10px 15px;
 }
 
 h2 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 20px;
   border-left: 6px solid #373737;
   text-transform: lowercase;
@@ -171,26 +171,10 @@ div.card {
   font-size: 14px;
 }
 
-article.post {
-  .date {
-    font-size: 18px;
-  }
-  .post-footer {
-    font-size: 18px;
-  }
-}
-
 article.post h1 {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  border-left: 8px solid #373737;
-  text-transform: uppercase;
-
   margin: 40px -30px 0px -23px;
   padding: 10px 30px 10px 15px;
 }
-
 
 article.post .date {
   font-size: 16px;
